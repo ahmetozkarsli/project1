@@ -1,0 +1,13 @@
+float uzunkenar,kisakenar,alan,cevre;
+ 
+ printf("uzunkenari girin=");
+ scanf("%f",&uzunkenar);
+ 
+ printf("kisakenari giriniz=");
+ scanf("%f",&kisakenar);
+ 
+ alan=kisakenar*uzunkenar;
+ cevre=kisakenar*2+uzunkenar*2;
+ 
+ printf("alan= %f\n",alan);
+printf("cevre= %f",cevre);
